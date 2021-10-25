@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BGE_Dragon_2
+  m_Name: BGE_Dragon_2.7_Animation_Only
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -59,7 +59,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 110271854}
-    m_Position: {x: 200, y: 0, z: 0}
+    m_Position: {x: 100, y: 60, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
