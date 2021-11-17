@@ -27,6 +27,7 @@ namespace CMF
             tr = transform;
             mover = GetComponent<Mover>();
             characterInput = GetComponent<CharacterInput>();
+            Cursor.visible = false;
         }
 
         void FixedUpdate()
