@@ -1,10 +1,10 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 16309 MB
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'es' Physical Memory: 16309 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\2020.3.13f1\Editor\Unity.exe
+D:\Program Files\2020.3.13f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,14 +15,14 @@ D:/Documentos/DarkSoulsLvL
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64500
+57732
 Successfully changed project path to: D:/Documentos/DarkSoulsLvL
 D:/Documentos/DarkSoulsLvL
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
-[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Program Files/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Documentos/DarkSoulsLvL/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
@@ -30,44 +30,44 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
     Vendor:   
     VRAM:     5991 MB
-    Driver:   27.21.14.5730
+    Driver:   30.0.14.9676
 Initialize mono
-Mono path[0] = 'C:/Program Files/2020.3.13f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Mono path[0] = 'D:/Program Files/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001235 seconds.
+Register platform support module: D:/Program Files/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000959 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 68.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.021 seconds
+- Completed reload, in  2.161 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.058254 seconds.
+Registered in 0.003348 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.876 seconds
+- Completed reload, in  0.820 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.0 MB.
-System memory in use after: 159.5 MB.
+System memory in use before: 162.8 MB.
+System memory in use after: 160.4 MB.
 
 Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3533.
-Total: 2.989500 ms (FindLiveObjects: 0.277300 ms CreateObjectMapping: 0.084700 ms MarkObjects: 1.711800 ms  DeleteObjects: 0.914600 ms)
+Total: 3.448200 ms (FindLiveObjects: 0.374800 ms CreateObjectMapping: 0.080400 ms MarkObjects: 2.016400 ms  DeleteObjects: 0.975600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -81,592 +81,32 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/SkyMaster/Scripts/V3.4 Scripts/ShaderVolumeClouds/ShaderVolumeCloudsSMV3.4 3 SM30 like SM20 H 1 BACK8 use 3 v3.4.3 TOP DOWN LOW FOG 3.mat
-  artifactKey: Guid(ec35386c05b5fb642b55484494c1563c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/Scripts/V3.4 Scripts/ShaderVolumeClouds/ShaderVolumeCloudsSMV3.4 3 SM30 like SM20 H 1 BACK8 use 3 v3.4.3 TOP DOWN LOW FOG 3.mat using Guid(ec35386c05b5fb642b55484494c1563c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa01162239535ed5b6cdcb9c7d9bdb0') in 0.292079 seconds 
-  Import took 0.297131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/SkyMaster/Scripts/V3.4 Scripts
-  artifactKey: Guid(eb02d3dea44af6746afa2eb2ea1e4e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/Scripts/V3.4 Scripts using Guid(eb02d3dea44af6746afa2eb2ea1e4e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f67e10f954c0089d45963305f23f392') in 0.004530 seconds 
-  Import took 0.008007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures/CLOUD INTERACT TEXTURE 3.png
-  artifactKey: Guid(43b6244cf3c3ecb4599ba7e50e594f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures/CLOUD INTERACT TEXTURE 3.png using Guid(43b6244cf3c3ecb4599ba7e50e594f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82682319b4f9477fafe0e529aea6e7d6') in 0.018144 seconds 
-  Import took 0.022226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/SkyMaster/Scripts
-  artifactKey: Guid(815d064145c3c4549811cdcb67dbbfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/Scripts using Guid(815d064145c3c4549811cdcb67dbbfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626d26ce5437d032c4a7964b25fc55ae') in 0.004194 seconds 
-  Import took 0.007969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/SkyMaster/Scripts/V3.4 Scripts/ShaderVolumeClouds/ShaderVolumeCloudsSMV3.4 3 SM30 like SM20 H 1 BACK8 use 3 v3.4.3 TOP DOWN LOW FOG 4 VORTEX.mat
-  artifactKey: Guid(fa1890b050634ed4492dfdffc5ca3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/Scripts/V3.4 Scripts/ShaderVolumeClouds/ShaderVolumeCloudsSMV3.4 3 SM30 like SM20 H 1 BACK8 use 3 v3.4.3 TOP DOWN LOW FOG 4 VORTEX.mat using Guid(fa1890b050634ed4492dfdffc5ca3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738afacabd82072737d47ff130025729') in 0.086509 seconds 
-  Import took 0.089984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/SkyMaster/Assets/Version 2.2/Materials
-  artifactKey: Guid(929ac70501748eb4d95e3447dccbe2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/Assets/Version 2.2/Materials using Guid(929ac70501748eb4d95e3447dccbe2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394ff6e754caf07d2ffce55455718a8f') in 0.003586 seconds 
-  Import took 0.006199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures/Cloud Tetxure 1.png
-  artifactKey: Guid(1c8481fcc3152ea4d8315a8bc2a0da51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures/Cloud Tetxure 1.png using Guid(1c8481fcc3152ea4d8315a8bc2a0da51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0337b92626c7f5fb0a10c3921d26db08') in 0.006878 seconds 
-  Import took 0.009762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/SkyMaster/Scripts/V3.4 Scripts/ShaderVolumeClouds/ShaderVolumeCloudsSMV3.4 3 SM30 like SM20 H 1 BACK8 use 3 v3.4.3 TOP DOWN LOW FOG 2.mat
-  artifactKey: Guid(457306a3ef743f64aa95d478fd339cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/Scripts/V3.4 Scripts/ShaderVolumeClouds/ShaderVolumeCloudsSMV3.4 3 SM30 like SM20 H 1 BACK8 use 3 v3.4.3 TOP DOWN LOW FOG 2.mat using Guid(457306a3ef743f64aa95d478fd339cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d596da256bb423fbb59658bd03f24d') in 0.008590 seconds 
-  Import took 0.011474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/SkyMaster/Scripts/V3.4 Scripts/ShaderVolumeClouds/ShaderVolumeCloudsSMV3.4 3 SM30 like SM20 H 1 BACK8 use 3 v3.4.3 TOP DOWN LOW FOG 4 VORTEX 1.mat
-  artifactKey: Guid(67c9d1b794a61c9459b1b176438a5afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/Scripts/V3.4 Scripts/ShaderVolumeClouds/ShaderVolumeCloudsSMV3.4 3 SM30 like SM20 H 1 BACK8 use 3 v3.4.3 TOP DOWN LOW FOG 4 VORTEX 1.mat using Guid(67c9d1b794a61c9459b1b176438a5afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3562aad3c5c5c7404f762d6037b6e4') in 0.010247 seconds 
-  Import took 0.013619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/SkyMaster/Assets/Version 2.2/Materials/Asteroid/CliffRock_NRM SM.png
-  artifactKey: Guid(f0914d536fb397247850417d2d850bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/Assets/Version 2.2/Materials/Asteroid/CliffRock_NRM SM.png using Guid(f0914d536fb397247850417d2d850bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19de4b38dbc87b752345e3901c2582b') in 0.011459 seconds 
-  Import took 0.015178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/SkyMaster/Scripts/V3.4 Scripts/ShaderVolumeClouds
-  artifactKey: Guid(4fa46e0faa06db14fa9ddce6e4d02f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/Scripts/V3.4 Scripts/ShaderVolumeClouds using Guid(4fa46e0faa06db14fa9ddce6e4d02f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b9719782b2d4f2ce9c58ac3c52a48a') in 0.003718 seconds 
-  Import took 0.006831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/SkyMaster/Assets
-  artifactKey: Guid(e9d3c452d40580d4b85c598953d2f393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/Assets using Guid(e9d3c452d40580d4b85c598953d2f393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a86d3ccf786654bbdf3bee14df9249f') in 0.004439 seconds 
-  Import took 0.008014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/SkyMaster/Assets/Version 2.2
-  artifactKey: Guid(2290675a72317af40ac19cddef66d902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/Assets/Version 2.2 using Guid(2290675a72317af40ac19cddef66d902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff1c7955e33b38125650a83bd414a80') in 0.004123 seconds 
-  Import took 0.007230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/SkyMaster/Assets/Version 2.2/Materials/Asteroid
-  artifactKey: Guid(c5c933976e61ff6488a41ff00d453885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/Assets/Version 2.2/Materials/Asteroid using Guid(c5c933976e61ff6488a41ff00d453885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3636cd69481b741ef8e6693d07136100') in 0.004394 seconds 
-  Import took 0.007684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS
-  artifactKey: Guid(c569aa575d6ef4340bb49190ea690391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS using Guid(c569aa575d6ef4340bb49190ea690391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b3c21ede299b9d4309b5bd942c6662') in 0.004087 seconds 
-  Import took 0.007344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/SkyMaster
-  artifactKey: Guid(1a901501ac5ef3443ab631440f0479fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster using Guid(1a901501ac5ef3443ab631440f0479fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5083790f10233d918d3b9d5f965915a0') in 0.004023 seconds 
-  Import took 0.007021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.338051 seconds.
-  path: Assets/SkyMaster/Scripts/V3.4 Scripts/ShaderVolumeClouds/ShaderVolumeCloudsSMV3.4b SM30 v3.4.3_SHADOWS BACK STANDARD PIPELINE.rar
-  artifactKey: Guid(b7eeedb3778b3bc4cb51f2cf358ad7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/Scripts/V3.4 Scripts/ShaderVolumeClouds/ShaderVolumeCloudsSMV3.4b SM30 v3.4.3_SHADOWS BACK STANDARD PIPELINE.rar using Guid(b7eeedb3778b3bc4cb51f2cf358ad7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2945a5c2e896cdcaf8c93840e9056b') in 0.006345 seconds 
-  Import took 0.654041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.822315 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures/Cloud TetxureA 1.png
-  artifactKey: Guid(2f72804083408ae41b57b46b545b3aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures/Cloud TetxureA 1.png using Guid(2f72804083408ae41b57b46b545b3aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b2b693fea04cbac91a15bbdb894a1f') in 0.008528 seconds 
-  Import took 0.013129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003248 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures/Cloud TetxureA 1.png
-  artifactKey: Guid(2f72804083408ae41b57b46b545b3aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures/Cloud TetxureA 1.png using Guid(2f72804083408ae41b57b46b545b3aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b2b693fea04cbac91a15bbdb894a1f') in 0.007791 seconds 
-  Import took 0.011923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.041029 seconds.
-  path: Assets/SkyMaster/DEMOS
-  artifactKey: Guid(c35f4ab7c92f80e4eb180c7232a3c821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/DEMOS using Guid(c35f4ab7c92f80e4eb180c7232a3c821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cc39359bb31aba7658b45523262251') in 0.004356 seconds 
-  Import took 0.008455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.946707 seconds.
-  path: Assets/SkyMaster/DEMOS/DEMO ASSETS
-  artifactKey: Guid(179b28579b3bb3c47bc75924a66967a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/DEMOS/DEMO ASSETS using Guid(179b28579b3bb3c47bc75924a66967a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee746d6a4ca4bc2650ac2f460487b4b') in 0.004267 seconds 
-  Import took 0.008232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.720095 seconds.
-  path: Assets/SkyMaster/DEMOS/DEMO ASSETS/Version 3.0
-  artifactKey: Guid(46b1d7a3e109cdc4097ddc5dd1deddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/DEMOS/DEMO ASSETS/Version 3.0 using Guid(46b1d7a3e109cdc4097ddc5dd1deddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5d2242d062825701fdfea8ca0def44') in 0.004295 seconds 
-  Import took 0.008312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.550997 seconds.
-  path: Assets/SkyMaster/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain
-  artifactKey: Guid(9ab986ca28751874e9188ae237508684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain using Guid(9ab986ca28751874e9188ae237508684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3c043c0eb9a6367a9a261dcf0ab0ac') in 0.004450 seconds 
-  Import took 0.008371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.078353 seconds.
-  path: Assets/SkyMaster/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain/terrain_far_01_a3.jpg
-  artifactKey: Guid(653549924580c194eb8c943febd90d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain/terrain_far_01_a3.jpg using Guid(653549924580c194eb8c943febd90d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbb41bc8268a29e6c29f6b7a954f779') in 0.010326 seconds 
-  Import took 0.014446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/SkyMaster/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain/terrain_far_01_a3.png
-  artifactKey: Guid(754561dff63ed7641b91e9c62ab4a5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain/terrain_far_01_a3.png using Guid(754561dff63ed7641b91e9c62ab4a5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50052257ab2f733855733f56bb1e287b') in 0.008529 seconds 
-  Import took 0.012332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.925931 seconds.
-  path: Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS
-  artifactKey: Guid(a2b96fd187ec5d14296f3df8c1bd30db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS using Guid(a2b96fd187ec5d14296f3df8c1bd30db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a949702153a521a322f497e2eb0430d3') in 0.001358 seconds 
-  Import took 0.005514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.526940 seconds.
-  path: Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS
-  artifactKey: Guid(fd1529d6fbaff45499a7448de8871db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS using Guid(fd1529d6fbaff45499a7448de8871db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49799d7c76bd209e866c169c60cbe311') in 0.001273 seconds 
-  Import took 0.005043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.511305 seconds.
-  path: Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS/Version 3.0
-  artifactKey: Guid(81fbbffc45e0f8d49b17a1ee988bae92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS/Version 3.0 using Guid(81fbbffc45e0f8d49b17a1ee988bae92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5ed9d4816318f7f2c849903f5ec631') in 0.001301 seconds 
-  Import took 0.005175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.504290 seconds.
-  path: Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain
-  artifactKey: Guid(c979a81d33142744a82ce5e9a1675b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain using Guid(c979a81d33142744a82ce5e9a1675b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877bb4d4c63262559bdbfde69912a7bf') in 0.001262 seconds 
-  Import took 0.005319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.195436 seconds.
-  path: Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain/mat_terrain_far_03.mat
-  artifactKey: Guid(c29048b1bda7dd34eac5b0200828b82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain/mat_terrain_far_03.mat using Guid(c29048b1bda7dd34eac5b0200828b82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9fb9166670593728828e533958d10d') in 0.057262 seconds 
-  Import took 0.062024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain/terrain_far_01_sg 2.tif
-  artifactKey: Guid(260cd19dcedd5d1408b2ee80d98236eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain/terrain_far_01_sg 2.tif using Guid(260cd19dcedd5d1408b2ee80d98236eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7032f0f018a4859fd726d4a84596f7be') in 0.011449 seconds 
-  Import took 0.015128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain/terrain_01_o_highpassed 2.tif
-  artifactKey: Guid(dd1ccab8547d1e443a9a90da4d9c6f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain/terrain_01_o_highpassed 2.tif using Guid(dd1ccab8547d1e443a9a90da4d9c6f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f958211b53d268c5aac5fa0b7af6fea8') in 0.008811 seconds 
-  Import took 0.560613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain/terrain_01_n 1.png
-  artifactKey: Guid(97cbf005e37ba7b48846c97db6c29831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain/terrain_01_n 1.png using Guid(97cbf005e37ba7b48846c97db6c29831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07a6fa0907f3190a13fc71c55d5efe7') in 0.009758 seconds 
-  Import took 0.014063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain/terrain_01_o 2.tif
-  artifactKey: Guid(0f7c81be036a7874db3269871f68809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyMaster/EXTRA SM DEMOS AND ASSETS/DEMOS/DEMO ASSETS/Version 3.0/MeshTerrain/terrain_01_o 2.tif using Guid(0f7c81be036a7874db3269871f68809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fa076add71650b6c71027278f5688f') in 0.007488 seconds 
-  Import took 0.010948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 161.101741 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD
-  artifactKey: Guid(dbdafeec2e5f69f418c8c925d8c4075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD using Guid(dbdafeec2e5f69f418c8c925d8c4075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6fcf1d59ac0b9906b4b817056f420a') in 0.004528 seconds 
-  Import took 0.008755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.128139 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/Assets
-  artifactKey: Guid(cd76b2580d778be4c91332da4fd2be23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/Assets using Guid(cd76b2580d778be4c91332da4fd2be23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad67599039a916b532e7ad7d7f8d1a6') in 0.001247 seconds 
-  Import took 0.005089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.053403 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/Assets/CLOUD INTERACT TEXTURE 1.png
-  artifactKey: Guid(861f1f6c92c07724cb5e3c3aa1f78525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/Assets/CLOUD INTERACT TEXTURE 1.png using Guid(861f1f6c92c07724cb5e3c3aa1f78525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12c834318e5e4a256f8238600207a8f') in 0.008949 seconds 
-  Import took 0.012906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.263255 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4
-  artifactKey: Guid(961ba1eb29f53e64e8da6bbbf97c4229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4 using Guid(961ba1eb29f53e64e8da6bbbf97c4229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70672dd983ea686bfc38299c0e41f29a') in 0.005217 seconds 
-  Import took 0.009010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.830461 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures
-  artifactKey: Guid(15e32e74405c49741aa2eb2604f83221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures using Guid(15e32e74405c49741aa2eb2604f83221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1f9c1be29634d94e235ffc3a73cf16') in 0.004407 seconds 
-  Import took 0.008583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008606 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures/CLOUD INTERACT TEXTURE 1.png
-  artifactKey: Guid(ffab835222328014d9f4bea4286cbc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures/CLOUD INTERACT TEXTURE 1.png using Guid(ffab835222328014d9f4bea4286cbc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875d36b986bff7f14cdc3c509978e0ce') in 0.119974 seconds 
-  Import took 0.123928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures/CLOUD INTERACT TEXTURE 2.png
-  artifactKey: Guid(8034f877ef030f349ab31957981eb9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures/CLOUD INTERACT TEXTURE 2.png using Guid(8034f877ef030f349ab31957981eb9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e53668049c42d03c1f69054587af8f') in 0.006593 seconds 
-  Import took 0.010070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures/Cloud Tetxure 3.png
-  artifactKey: Guid(b03970cdaa98d8c43a6b24adec04f4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/Assets/Version 3.4/Cloud textures/Cloud Tetxure 3.png using Guid(b03970cdaa98d8c43a6b24adec04f4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf7ed4549ce3bff54aebb85fc4c01e4') in 0.008386 seconds 
-  Import took 0.012587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.130224 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/PREFABS
-  artifactKey: Guid(61ab79540b1d044448db9849529d8bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/PREFABS using Guid(61ab79540b1d044448db9849529d8bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27aa05e988d7b2a285192e620fd65c8') in 0.004243 seconds 
-  Import took 0.008329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040680 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/PREFABS/0 URP Lightning Storm System.prefab
-  artifactKey: Guid(e41af7d997896c24f915f9d463d351ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/PREFABS/0 URP Lightning Storm System.prefab using Guid(e41af7d997896c24f915f9d463d351ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3ec150084540ed576a695246ed5234') in 0.019601 seconds 
-  Import took 0.023780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/PREFABS/Custom InfiniCLOUD prefab Low Fog.prefab
-  artifactKey: Guid(980f16bac2a1e26469194830a04d9ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/PREFABS/Custom InfiniCLOUD prefab Low Fog.prefab using Guid(980f16bac2a1e26469194830a04d9ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7ad0ebcd1c8ef6b80e3b5a5143a6bf') in 0.160108 seconds 
-  Import took 0.166296 seconds .
+  path: Assets/TutorialInfo
+  artifactKey: Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5a30219286eb2a872f2f84d66d9616') in 0.064956 seconds 
+  Import took 0.153813 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002554 seconds.
+Registered in 0.003570 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.698 seconds
+- Completed reload, in  1.365 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3016 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.7 MB.
-System memory in use after: 159.3 MB.
+Unloading 3468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.5 MB.
+System memory in use after: 172.8 MB.
 
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3621.
-Total: 3.016400 ms (FindLiveObjects: 0.269500 ms CreateObjectMapping: 0.112600 ms MarkObjects: 1.715800 ms  DeleteObjects: 0.917700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3559.707241 seconds.
-  path: Assets/ARTnGAME/InfiniCLOUD/README.txt
-  artifactKey: Guid(58744b722d849294d95ae467d4c9e64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARTnGAME/InfiniCLOUD/README.txt using Guid(58744b722d849294d95ae467d4c9e64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33468f3dd1b7c5c25e0710bab603322d') in 0.053125 seconds 
-  Import took 0.058354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1126.886908 seconds.
-  path: Assets/Materials/Escaleras.mat
-  artifactKey: Guid(16862ff17be5fd84f9df265daa728198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Escaleras.mat using Guid(16862ff17be5fd84f9df265daa728198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cec52919d702b1d5a0eac5d8505620') in 0.169101 seconds 
-  Import took 0.173716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Materials/ParedMontaña.mat
-  artifactKey: Guid(ecb7f7b0ed7be3341affd9958ca73aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ParedMontaña.mat using Guid(ecb7f7b0ed7be3341affd9958ca73aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a0ed6a550ee33f935f1bee177c0c3c') in 0.043516 seconds 
-  Import took 0.065644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Materials/Escaleras.mat
-  artifactKey: Guid(16862ff17be5fd84f9df265daa728198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Escaleras.mat using Guid(16862ff17be5fd84f9df265daa728198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cec52919d702b1d5a0eac5d8505620') in 0.019780 seconds 
-  Import took 0.023354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Materials/Skybox_Mat.mat
-  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f4fd2ebd5a3e4fe25a0400418ba723') in 0.010587 seconds 
-  Import took 0.014198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Materials/Obstaculo.mat
-  artifactKey: Guid(02b77fafdccee8d4da2eace13c06296d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Obstaculo.mat using Guid(02b77fafdccee8d4da2eace13c06296d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1699d7f2713806f19407cbfeb6d634e') in 0.025422 seconds 
-  Import took 0.029182 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002325 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.724 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3016 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.0 MB.
-System memory in use after: 159.5 MB.
-
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3660.
-Total: 3.809600 ms (FindLiveObjects: 0.287800 ms CreateObjectMapping: 0.078100 ms MarkObjects: 2.158300 ms  DeleteObjects: 1.284400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002865 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.838 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3016 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.0 MB.
-System memory in use after: 159.5 MB.
-
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3663.
-Total: 3.603100 ms (FindLiveObjects: 0.324200 ms CreateObjectMapping: 0.073400 ms MarkObjects: 1.904400 ms  DeleteObjects: 1.300000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003579 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.747 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3016 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.0 MB.
-System memory in use after: 159.5 MB.
-
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3666.
-Total: 3.339700 ms (FindLiveObjects: 0.266900 ms CreateObjectMapping: 0.069300 ms MarkObjects: 1.831600 ms  DeleteObjects: 1.171200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002429 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.735 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3016 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.0 MB.
-System memory in use after: 159.5 MB.
-
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3669.
-Total: 3.205400 ms (FindLiveObjects: 0.234300 ms CreateObjectMapping: 0.066100 ms MarkObjects: 1.761300 ms  DeleteObjects: 1.143100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.074460 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.699 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3016 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.0 MB.
-System memory in use after: 159.5 MB.
-
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3672.
-Total: 4.573600 ms (FindLiveObjects: 0.450300 ms CreateObjectMapping: 0.094200 ms MarkObjects: 2.655600 ms  DeleteObjects: 1.372600 ms)
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 4006.
+Total: 3.803000 ms (FindLiveObjects: 0.284200 ms CreateObjectMapping: 0.129600 ms MarkObjects: 2.436500 ms  DeleteObjects: 0.952000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
