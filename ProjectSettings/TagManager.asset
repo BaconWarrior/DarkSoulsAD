@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Conductor
+  - a_Listener
+  - Head
+  - charaVoiceOverAudioSource
+  - clouds
+  - hoguera
   layers:
   - Default
   - TransparentFX
