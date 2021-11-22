@@ -27,7 +27,11 @@ public class SpawnController : MonoBehaviour
 
         if (other.CompareTag("clouds"))
         {
-            transform.position = bonfire.transform.position;
+            Respawn();
         }
+    }
+
+    public void Respawn() {
+        transform.position = bonfire.transform.position;
     }
 }
