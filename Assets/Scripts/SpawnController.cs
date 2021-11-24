@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class SpawnController : MonoBehaviour
 {
-
+    
     public GameObject bonfire;
+    public Animator anim;
+    public bool dead = false;
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = GameObject.Find("You died screen").GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -32,6 +34,15 @@ public class SpawnController : MonoBehaviour
     }
 
     public void Respawn() {
+        if (!dead) {
+            anim.Play("fade_in");
+            dead = true;
+            Invoke("Reaparecer", 0.5f);
+        }
+    }
+
+    public void Reaparecer() {
         transform.position = bonfire.transform.position;
+        dead = false;
     }
 }

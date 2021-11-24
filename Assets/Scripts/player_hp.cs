@@ -22,8 +22,10 @@ public class player_hp : MonoBehaviour
     private void Update()
     {
         if (hp <= 0) {
-            hp = max_hp;
             spawn.Respawn();
+        }
+        if (spawn.dead) {
+            hp = max_hp;
         }
     }
 
