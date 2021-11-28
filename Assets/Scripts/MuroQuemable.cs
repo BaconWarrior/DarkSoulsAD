@@ -7,9 +7,22 @@ public class MuroQuemable : MonoBehaviour
     public float dissolveRate = 0.2f;
     public float refreshRate;
     public float dieDelay;
-    bool quemandose;
+    public bool quemandose;
     public Material dissolveMaterials;
     public GameObject particulas;
+    public bool entradaCastillo = false;
+
+    private void OnDestroy()
+    {
+        if (entradaCastillo) {
+            print("desprender suelo");
+            GameObject suelo = GameObject.FindGameObjectWithTag("sueloFragil");
+            suelo.GetComponent<Rigidbody>().isKinematic = false;
+            for (int i = 0; i < suelo.transform.childCount; i++) {
+                suelo.transform.GetChild(i).gameObject.GetComponent<Collider>().enabled = false;
+            }
+        }
+    }
 
     private void OnTriggerStay(Collider other)
     {
@@ -41,6 +54,6 @@ public class MuroQuemable : MonoBehaviour
                 yield return rr;
             }
         dissolveMaterials.SetFloat(IdDissolveAmount, -1);
-        Destroy(gameObject, 1);
+        Destroy(gameObject, 1f);
     }
 }

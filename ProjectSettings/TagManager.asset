@@ -12,6 +12,7 @@ TagManager:
   - hoguera
   - acido
   - rasgunho
+  - sueloFragil
   layers:
   - Default
   - TransparentFX
@@ -20,8 +21,8 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
-  - 
+  - estructura
+  - sueloFragil
   - 
   - 
   - 
