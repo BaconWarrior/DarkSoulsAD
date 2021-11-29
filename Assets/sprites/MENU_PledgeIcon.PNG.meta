@@ -1,0 +1,1008 @@
+fileFormatVersion: 2
+guid: b6fc4536efc9de646af3a1e5c9c68e32
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2256749580937840483
+    second: MENU_PledgeIcon_0
+  - first:
+      213: 3263472422468491839
+    second: MENU_PledgeIcon_1
+  - first:
+      213: 2569546012318922522
+    second: MENU_PledgeIcon_2
+  - first:
+      213: -9171526209066884608
+    second: MENU_PledgeIcon_3
+  - first:
+      213: -5862128068702354099
+    second: MENU_PledgeIcon_4
+  - first:
+      213: 7876916095396640302
+    second: MENU_PledgeIcon_5
+  - first:
+      213: -2064092252027310428
+    second: MENU_PledgeIcon_6
+  - first:
+      213: 527684513731342850
+    second: MENU_PledgeIcon_7
+  - first:
+      213: -4963114987506222334
+    second: MENU_PledgeIcon_8
+  - first:
+      213: -895965174581065950
+    second: MENU_PledgeIcon_9
+  - first:
+      213: -1418282068556663557
+    second: MENU_PledgeIcon_10
+  - first:
+      213: -8830890430169361610
+    second: MENU_PledgeIcon_11
+  - first:
+      213: 781296761290854604
+    second: MENU_PledgeIcon_12
+  - first:
+      213: 3057913143027890698
+    second: MENU_PledgeIcon_13
+  - first:
+      213: 7493166650379102122
+    second: MENU_PledgeIcon_14
+  - first:
+      213: -4035516792671184529
+    second: MENU_PledgeIcon_15
+  - first:
+      213: -877326629638776414
+    second: MENU_PledgeIcon_16
+  - first:
+      213: 3267540111713494970
+    second: MENU_PledgeIcon_17
+  - first:
+      213: 5300981810388820606
+    second: MENU_PledgeIcon_18
+  - first:
+      213: 2812333514234212487
+    second: MENU_PledgeIcon_19
+  - first:
+      213: -6324442882625953515
+    second: MENU_PledgeIcon_20
+  - first:
+      213: -782596159204127973
+    second: MENU_PledgeIcon_21
+  - first:
+      213: -7117671884152766238
+    second: MENU_PledgeIcon_22
+  - first:
+      213: -937651681166098376
+    second: MENU_PledgeIcon_23
+  - first:
+      213: 7740448215643516474
+    second: MENU_PledgeIcon_24
+  - first:
+      213: 1152328687841953757
+    second: MENU_PledgeIcon_25
+  - first:
+      213: 5503150474724558334
+    second: MENU_PledgeIcon_26
+  - first:
+      213: -39685779512223973
+    second: MENU_PledgeIcon_27
+  - first:
+      213: -6472949380986351863
+    second: MENU_PledgeIcon_28
+  - first:
+      213: -8899639012963197001
+    second: MENU_PledgeIcon_29
+  - first:
+      213: 5157195130429110551
+    second: MENU_PledgeIcon_30
+  - first:
+      213: 7878689975595608130
+    second: MENU_PledgeIcon_31
+  - first:
+      213: 6862949129163398307
+    second: MENU_PledgeIcon_32
+  - first:
+      213: -2329592621235884327
+    second: MENU_PledgeIcon_33
+  - first:
+      213: 2618265528751939659
+    second: MENU_PledgeIcon_34
+  - first:
+      213: 6212996207468894873
+    second: MENU_PledgeIcon_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 391
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d983031863a6ea0e0800000000000000
+      internalID: -2256749580937840483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 391
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a948ba0ee2a4d20800000000000000
+      internalID: 3263472422468491839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 391
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a177a42fb7cd8a320800000000000000
+      internalID: 2569546012318922522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_3
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 391
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0022264718138b080800000000000000
+      internalID: -9171526209066884608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_4
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 391
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d454625949985aea0800000000000000
+      internalID: -5862128068702354099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_5
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 383
+        width: 120
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e267caf747d605d60800000000000000
+      internalID: 7876916095396640302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_6
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 391
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aea646680fda53e0800000000000000
+      internalID: -2064092252027310428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_7
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 391
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2027e6af446b25700800000000000000
+      internalID: 527684513731342850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_8
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 384
+        width: 112
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b364ee6397f1bb0800000000000000
+      internalID: -4963114987506222334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 127
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22789f5bb64e093f0800000000000000
+      internalID: -895965174581065950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 263
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4bf5819ff315ce0800000000000000
+      internalID: -1418282068556663557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 263
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633db5b11ff527580800000000000000
+      internalID: -8830890430169361610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_12
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 263
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc097e0d349b7da00800000000000000
+      internalID: 781296761290854604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_13
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 263
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0afc245dc3ef6a20800000000000000
+      internalID: 3057913143027890698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_14
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 255
+        width: 120
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa766a63e531df760800000000000000
+      internalID: 7493166650379102122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_15
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 263
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69d5bfabd6fef7c0800000000000000
+      internalID: -4035516792671184529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_16
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 263
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9d360241c13d3f0800000000000000
+      internalID: -877326629638776414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_17
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 255
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7e5006b62a85d20800000000000000
+      internalID: 3267540111713494970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 127
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e726809eeded09940800000000000000
+      internalID: 5300981810388820606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_19
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 135
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7803bd94e6a670720800000000000000
+      internalID: 2812333514234212487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 135
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51125d2e4b01b38a0800000000000000
+      internalID: -6324442882625953515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_21
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 135
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b8d0880f8a325f0800000000000000
+      internalID: -782596159204127973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_22
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 135
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e00a45e123f83d90800000000000000
+      internalID: -7117671884152766238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_23
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 127
+        width: 119
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8300c0d83caccf2f0800000000000000
+      internalID: -937651681166098376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_24
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 135
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3eecb734a89b6b60800000000000000
+      internalID: 7740448215643516474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_25
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 127
+        width: 114
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7cf4716d4edff00800000000000000
+      internalID: 1152328687841953757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_26
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 127
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5ca77233e1f5c40800000000000000
+      internalID: 5503150474724558334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 120
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b171a896ef1037ff0800000000000000
+      internalID: -39685779512223973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_28
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 7
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f493945d67b26a0800000000000000
+      internalID: -6472949380986351863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_29
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 7
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfde1358712e7480800000000000000
+      internalID: -8899639012963197001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_30
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 7
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719f99aa5a9029740800000000000000
+      internalID: 5157195130429110551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_31
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 7
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248aeca2acab65d60800000000000000
+      internalID: 7878689975595608130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_32
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 7
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac5c5b1fd71e3f50800000000000000
+      internalID: 6862949129163398307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_33
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 7
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de2ddb8adf9bafd0800000000000000
+      internalID: -2329592621235884327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_34
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 7
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40e8e050a2f55420800000000000000
+      internalID: 2618265528751939659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_PledgeIcon_35
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 0
+        width: 119
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a5801022ff83650800000000000000
+      internalID: 6212996207468894873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bd1735e0a353c8d4d9a2409f1ec95a4b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

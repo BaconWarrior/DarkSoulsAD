@@ -11,7 +11,7 @@ public class SpawnController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anim = GameObject.Find("You died screen").GetComponent<Animator>();
+        //anim = GameObject.Find("You died screen").GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -34,6 +34,7 @@ public class SpawnController : MonoBehaviour
     }
 
     public void Respawn() {
+        EstadisticasJugador.Instance.vida = EstadisticasJugador.Instance.vidaMaxima;
         if (!dead) {
             anim.Play("fade_in");
             dead = true;
