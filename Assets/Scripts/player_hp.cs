@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
+using UnityEngine.UI;
 public class player_hp : MonoBehaviour
 {
     public float max_hp;
     public float hp;
     public SpawnController spawn;
-
     private void Start()
     {
         hp = max_hp;

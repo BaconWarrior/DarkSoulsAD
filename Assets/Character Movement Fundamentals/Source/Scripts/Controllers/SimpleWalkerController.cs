@@ -8,6 +8,7 @@ namespace CMF
 	//This script is an example of a very simple walker controller that covers only the basics of character movement;
     public class SimpleWalkerController : Controller
     {
+        static readonly int an_Run = Animator.StringToHash("Run");
         private Mover mover;
         float currentVerticalSpeed = 0f;
         bool isGrounded;
@@ -20,7 +21,7 @@ namespace CMF
 		public Transform cameraTransform;
         CharacterInput characterInput;
         Transform tr;
-
+        public Animator anim;
         // Use this for initialization
         void Start()
         {
@@ -73,7 +74,8 @@ namespace CMF
 			lastVelocity = _velocity;
 
             mover.SetExtendSensorRange(isGrounded);
-            mover.SetVelocity(_velocity);
+            mover.SetVelocity(_velocity); 
+            anim.SetFloat("Velocidad", _velocity.magnitude);
         }
 
         private Vector3 CalculateMovementDirection()
