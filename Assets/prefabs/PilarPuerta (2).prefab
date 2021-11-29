@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2088843451166057185}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 116.64, y: 39.67, z: 289.94}
-  m_LocalScale: {x: 2.780708, y: 5.5393033, z: 4.4158525}
+  m_LocalScale: {x: 2.78071, y: 5.5393, z: 4.4158497}
   m_Children:
   - {fileID: 8944615428190238372}
   m_Father: {fileID: 0}
@@ -92,8 +92,8 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088843451166057185}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
+  m_IsTrigger: 1
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -112,8 +112,10 @@ MonoBehaviour:
   dissolveRate: 0.01
   refreshRate: 0.02
   dieDelay: 5
+  quemandose: 0
   dissolveMaterials: {fileID: 2100000, guid: f21f7032fac1e7b4ab2b4cc6043f7afe, type: 2}
   particulas: {fileID: 3329462125250023786}
+  entradaCastillo: 1
 --- !u!1001 &2088843450525707845
 PrefabInstance:
   m_ObjectHideFlags: 0
