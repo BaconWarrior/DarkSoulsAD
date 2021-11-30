@@ -13,6 +13,13 @@ public class enemyHP : MonoBehaviour
         jugador = GameObject.FindObjectOfType<EstadisticasJugador>();
     }
 
+    private void Update()
+    {
+        if (hp <= 0) {
+            Destroy(this.gameObject);
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("arma")) {
