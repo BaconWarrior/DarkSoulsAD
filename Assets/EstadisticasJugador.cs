@@ -32,7 +32,9 @@ public class EstadisticasJugador : MonoBehaviour
     public float attackTime;
     public Collider fireCollider;
     public ParticleSystem fireParticles;
-    public float fireTime;
+    public float fireTimeActivate;
+    public float fireTimeActive;
+
     private bool busy;
 
     static EstadisticasJugador instance;
@@ -127,9 +129,16 @@ public class EstadisticasJugador : MonoBehaviour
         busy = true;
         gameObject.GetComponent<CMF.SimpleWalkerController>().movementSpeed = attackMoveSpeed;
         animator.SetTrigger("Fire");
-        fireCollider.enabled = true;
         fireParticles.Play();
-        yield return new WaitForSeconds(fireTime);
+        yield return new WaitForSeconds(fireTimeActivate);
+        fireCollider.enabled = true;
+        StartCoroutine(activeFire());
+    }
+
+    IEnumerator activeFire()
+    {
+
+        yield return new WaitForSeconds(fireTimeActive);
         fireCollider.enabled = false;
         busy = false;
         fireParticles.Stop();

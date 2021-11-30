@@ -24,16 +24,15 @@ public class MuroQuemable : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.transform.CompareTag("Player"))
+        if (other.transform.CompareTag("fuego"))
         {
-            if (Input.GetKeyDown(KeyCode.E) && !quemandose)
-            {
-                quemandose = true;
-                particulas.SetActive(true);
-                StartCoroutine(Dissolve());
-            }
+          
+            quemandose = true;
+            particulas.SetActive(true);
+            StartCoroutine(Dissolve());
+            
         }
     }
 

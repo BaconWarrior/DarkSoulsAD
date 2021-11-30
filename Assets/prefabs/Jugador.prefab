@@ -353,7 +353,8 @@ MonoBehaviour:
   attackTime: 1.5
   fireCollider: {fileID: 9185344328148441016}
   fireParticles: {fileID: 8990806856385327190}
-  fireTime: 2.7
+  fireTimeActivate: 2
+  fireTimeActive: 1
 --- !u!1 &4445695636888527332
 GameObject:
   m_ObjectHideFlags: 0
