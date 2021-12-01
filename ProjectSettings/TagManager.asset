@@ -14,6 +14,8 @@ TagManager:
   - rasgunho
   - sueloFragil
   - Tesoro
+  - MuroBoss
+  - Cofre
   layers:
   - Default
   - TransparentFX
@@ -23,7 +25,7 @@ TagManager:
   - UI
   - Rango fuego
   - Enemy
-  - 
+  - BossArea
   - 
   - 
   - 
