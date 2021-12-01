@@ -22,7 +22,7 @@ public class enemyHP : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("arma")) {
+        if (other.CompareTag("Arma")) {
             hp -= jugador.dano;
         }
     }

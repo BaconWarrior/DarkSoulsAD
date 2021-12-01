@@ -16,6 +16,9 @@ TagManager:
   - Tesoro
   - MuroBoss
   - Cofre
+  - fuego
+  - Arma
+  - Elevador
   layers:
   - Default
   - TransparentFX

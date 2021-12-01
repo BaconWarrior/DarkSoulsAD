@@ -18,8 +18,11 @@ public class BossEvents : MonoBehaviour
     public Transform posJugador;
     public Vector3 target;
     public LayerMask layerBoss;
-
+    public float hp;
     public GameObject Charco;
+    public GameObject ZonaDaño;
+    public Behaviour navigator;
+    bool dead;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +48,7 @@ public class BossEvents : MonoBehaviour
     }
     public void Carga()
     {
+        ZonaDaño.SetActive(true);
         carga = true;
         anim.Play(an_Charge);
         //target = posJugador.position;
@@ -57,6 +61,7 @@ public class BossEvents : MonoBehaviour
         {
             if(carga)
             {
+                ZonaDaño.SetActive(false);
                 anim.Play(an_Dizzy);
                 carga = false;
                 rb.velocity = Vector3.zero;
@@ -70,6 +75,7 @@ public class BossEvents : MonoBehaviour
         {
             if (carga)
             {
+                ZonaDaño.SetActive(false);
                 print("Ouch, choque :c");
                 anim.Play(an_Dizzy);
                 carga = false;
@@ -78,12 +84,28 @@ public class BossEvents : MonoBehaviour
                 Invoke(nameof(Reinicio), 4);
             }
         }
+        if (other.CompareTag("Arma"))
+        {
+            hp -= EstadisticasJugador.Instance.dano;
+            if (hp <= 0 && !dead)
+            {
+                dead = true;
+                Tree.enabled = false;
+                carga = false;
+                rb.velocity = Vector3.zero;
+                navigator.enabled = false;
+                anim.SetTrigger("Dead");
+                anim.Play(an_Dead);
+                Destroy(this.gameObject, 8);
+            }
+        }
     }
 
     public void ElejirAtaque()
     {
         Tree.enabled = false;
-        int eleccion = Random.Range(0, 1);
+        int eleccion = Random.Range(0, 2);
+        print("Eleccion" + eleccion);
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, layerBoss))
         {
@@ -117,6 +139,8 @@ public class BossEvents : MonoBehaviour
 
     public void Spit()
     {
-        GameObject temp = Instantiate(Charco, posJugador.position, posJugador.rotation);
+        GameObject temp = Instantiate(Charco, null);
+        temp.transform.position = posJugador.position;
+        Invoke(nameof(EncenderTree), 1.0f);
     }
 }

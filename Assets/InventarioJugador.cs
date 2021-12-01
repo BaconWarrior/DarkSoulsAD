@@ -128,6 +128,7 @@ public class InventarioJugador : MonoBehaviour
 
     public void ObtenerArma(int id)
     {
+        print("Te voy a dar un arma");
         switch (id)
         {
             case 0:
@@ -152,6 +153,9 @@ public class InventarioJugador : MonoBehaviour
             armaSelec = armas.Count - 1;
         ArmaActual = armas[armaSelec];
         ArmaActual.SetActive(true);
+        EstadisticasJugador.Instance.dano = ArmaActual.GetComponent<StatsArma>().miDano;
+        EstadisticasJugador.Instance.activeWeaponCollider = ArmaActual.GetComponent<StatsArma>().miCollider;
+        EstadisticasJugador.Instance.activeWeaponCollider.enabled = false;
         ///Señalizar la variable que Juan va a poner
     }
 }

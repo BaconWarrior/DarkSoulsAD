@@ -15,7 +15,7 @@ public class Ches : MonoBehaviour
         {
             print("Entro Player");
             Activacion.enabled = false;
-            //other.GetComponentInChildren<InventarioJugador>().ObtenerArma(arma);
+            other.GetComponent<InventarioJugador>().ObtenerArma(arma);
             LeanTween.rotateZ(pivote, 130, 3);
         }
     }

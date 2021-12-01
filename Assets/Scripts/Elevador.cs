@@ -8,7 +8,7 @@ public class Elevador : MonoBehaviour
     public Transform posAlto;
     public GameObject elevador;
     bool desbloqueado;
-    
+    public bool desbloqueador;
     public void Activarse()
     {
         if(elevador.transform.position == posBajo.position && desbloqueado)
@@ -29,10 +29,10 @@ public class Elevador : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (!desbloqueado && desbloqueador)
+            desbloqueado = true;
         if(collision.transform.CompareTag("Player"))
         {
-            if (!desbloqueado)
-                desbloqueado = true;
             Activarse();
         }
     }
