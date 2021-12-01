@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 8248257722294900993}
   - component: {fileID: 8248257722294900991}
   - component: {fileID: 8248257722294900992}
+  - component: {fileID: 4393744520500578282}
   - component: {fileID: 431557585}
   m_Layer: 7
   m_Name: perro
@@ -201,6 +202,20 @@ MonoBehaviour:
   _updateMode: 0
   _graph: {fileID: 0}
   _blackboard: {fileID: 8248257722294900991}
+--- !u!114 &4393744520500578282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038791607115566822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0f8b29e0924d64ead76952a81aa7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 5
+  jugador: {fileID: 0}
 --- !u!65 &431557585
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -18,6 +18,25 @@ public class EstadisticasJugador : MonoBehaviour
     public Slider barraVida;
     public Slider barraEnergia;
 
+    public Animator animator;
+    [Header("Attacks")]
+    private float originalSpeed;
+    public float attackMoveSpeed;
+    [Header("Weapon Colliders")]
+    public Collider swordCollider;
+    public Collider axeCollider;
+    public Collider maceCollider;
+    public Collider swordTwoCollider;
+
+    public Collider activeWeaponCollider;
+    public float attackTime;
+    public Collider fireCollider;
+    public ParticleSystem fireParticles;
+    public float fireTimeActivate;
+    public float fireTimeActive;
+
+    private bool busy;
+
     static EstadisticasJugador instance;
     public static EstadisticasJugador Instance
     {
@@ -37,6 +56,8 @@ public class EstadisticasJugador : MonoBehaviour
 
         instance = this;
         spawn = gameObject.GetComponent<SpawnController>();
+        originalSpeed = gameObject.GetComponent<CMF.SimpleWalkerController>().movementSpeed;
+        activeWeaponCollider = swordCollider;
     }
 
     public void RecibirDano(float dano)
@@ -66,6 +87,13 @@ public class EstadisticasJugador : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.R))
             Rodar();
+        if (!busy)
+        {
+            if (Input.GetKeyDown(KeyCode.N))
+                StartCoroutine(activateAttack());
+            if (Input.GetKeyDown(KeyCode.M))
+                StartCoroutine(activateFire());
+        }
     }
 
     void actualizarBarraEnergia(float _energia)
@@ -82,6 +110,40 @@ public class EstadisticasJugador : MonoBehaviour
     {
         actualizarBarraEnergia(-20.0f);
         print("Ruedo");
+    }
+
+    IEnumerator activateAttack()
+    {
+        busy = true;
+        gameObject.GetComponent<CMF.SimpleWalkerController>().movementSpeed = attackMoveSpeed;
+        animator.SetTrigger("Attack");
+        activeWeaponCollider.enabled = true;
+        yield return new WaitForSeconds(attackTime);
+        activeWeaponCollider.enabled = false;
+        busy = false;
+        gameObject.GetComponent<CMF.SimpleWalkerController>().movementSpeed = originalSpeed;
+    }
+
+    IEnumerator activateFire()
+    {
+        busy = true;
+        gameObject.GetComponent<CMF.SimpleWalkerController>().movementSpeed = attackMoveSpeed;
+        animator.SetTrigger("Fire");
+        fireParticles.Play();
+        yield return new WaitForSeconds(fireTimeActivate);
+        fireCollider.enabled = true;
+        StartCoroutine(activeFire());
+    }
+
+    IEnumerator activeFire()
+    {
+
+        yield return new WaitForSeconds(fireTimeActive);
+        fireCollider.enabled = false;
+        busy = false;
+        fireParticles.Stop();
+        gameObject.GetComponent<CMF.SimpleWalkerController>().movementSpeed = originalSpeed;
+
     }
 
     private void OnTriggerStay(Collider other)
