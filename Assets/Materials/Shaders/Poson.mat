@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Poson
+  m_Shader: {fileID: -6465566751694194690, guid: 28b360be16de8d44d904036b0a841b25, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_0f2d3e3a7e484d9cacee3f59c87ac471: 2.96
+    - Vector1_20b0066b4a2b4cee93cc617565378d5e: 4.43
+    - Vector1_2aabfd6a784446cab554db4b030abe2d: 108.47
+    - Vector1_41cba43dd4994950902f77ac86f8b079: 12.81
+    - Vector1_497a3203d0c4456e94b759a218c5e818: 0
+    - Vector1_5e52cd30a28b4d47bae627cd16ef182f: 0
+    - Vector1_bb96cf360ee1466ea21f0c65ced1cca3: 1
+    m_Colors:
+    - Color_11ecb1d81b5a4c2097bad45532370177: {r: 1, g: 0, b: 0.8690777, a: 0}
+    - Color_5cd7ef454ee542deab148779322f66e9: {r: 1, g: 0.8081138, b: 0, a: 0}
+    - Vector2_6ad3174e18484bacb26243537ae95bce: {r: -0.15, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

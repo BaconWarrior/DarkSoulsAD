@@ -9,7 +9,9 @@ public class InventarioJugador : MonoBehaviour
     int anilloEspecial, llaveJefe, cantidadObj1, cantidadObj2, cantidadObj3;
     [SerializeField]
     int objetoSeleccionado = 0;
+    int armaSelec = 0;
     public List<Consumibles> objetos = new List<Consumibles>();
+    List<GameObject> armas = new List<GameObject>();
     public Image imgObj;
     public TextMeshProUGUI cantidadObj;
     float regEnNormal;
@@ -20,12 +22,21 @@ public class InventarioJugador : MonoBehaviour
     public float cantidadDeVidaPorFrame = 0.1f;
     public bool regenrandoVida = false;
 
+    [SerializeField]
+    GameObject espadaNueva;
+    [SerializeField]
+    GameObject mazo;
+    [SerializeField]
+    GameObject hacha;
+    public GameObject ArmaActual;
+
     // Start is called before the first frame update
     void Start()
     {
         T = 0;
         regEnNormal = EstadisticasJugador.Instance.regEner;
         cantidadObj1 = 5;
+        armas.Add(ArmaActual);
     }
 
     // Update is called once per frame
@@ -50,6 +61,10 @@ public class InventarioJugador : MonoBehaviour
                 regenrandoVida = false;
             }
         }
+        if (Input.GetKeyDown(KeyCode.L))
+            ArmaSelec(1);
+        if (Input.GetKeyDown(KeyCode.K))
+            ArmaSelec(-1);
     }
     [Serializable]
     public struct Consumibles
@@ -91,9 +106,9 @@ public class InventarioJugador : MonoBehaviour
                 regenrandoVida = true;
             }
         }
-        
-        
-    } 
+
+
+    }
     void RegNormal()
     {
         EstadisticasJugador.Instance.regEner = regEnNormal;
@@ -118,23 +133,53 @@ public class InventarioJugador : MonoBehaviour
     {
         if(other.transform.CompareTag("Tesoro"))
         {
-            if(Input.GetKeyDown(KeyCode.P))
+            Destroy(other.gameObject);
+            int desicion = UnityEngine.Random.Range(0, 2);
+            if (desicion == 1)
             {
-                Destroy(other.gameObject);
-                int desicion = UnityEngine.Random.Range(0, 2);
-                if (desicion == 1)
-                {
-                    cantidadObj2++;
-                    if (objetoSeleccionado == 1)
-                        cantidadObj.text = cantidadObj2.ToString();
-                }
-                else
-                {
-                    cantidadObj3++;
-                    if (objetoSeleccionado == 2)
-                        cantidadObj.text = cantidadObj3.ToString();
-                }
+                cantidadObj2++;
+                if (objetoSeleccionado == 1)
+                    cantidadObj.text = cantidadObj2.ToString();
+            }
+            else
+            {
+                cantidadObj3++;
+                if (objetoSeleccionado == 2)
+                    cantidadObj.text = cantidadObj3.ToString();
             }
         }
+    }
+
+    public void ObtenerArma(int id)
+    {
+        print("Te voy a dar un arma");
+        switch (id)
+        {
+            case 0:
+                armas.Add(espadaNueva);
+                break;
+            case 1:
+                armas.Add(mazo);
+                break;
+            case 2:
+                armas.Add(hacha);
+                break;
+        }
+    }
+
+    void ArmaSelec(int id)
+    {
+        ArmaActual.SetActive(false);
+        armaSelec += id;
+        if (armaSelec == armas.Count)
+            armaSelec = 0;
+        if (armaSelec == -1)
+            armaSelec = armas.Count - 1;
+        ArmaActual = armas[armaSelec];
+        ArmaActual.SetActive(true);
+        EstadisticasJugador.Instance.dano = ArmaActual.GetComponent<StatsArma>().miDano;
+        EstadisticasJugador.Instance.activeWeaponCollider = ArmaActual.GetComponent<StatsArma>().miCollider;
+        EstadisticasJugador.Instance.activeWeaponCollider.enabled = false;
+        ///Se�alizar la variable que Juan va a poner
     }
 }

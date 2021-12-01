@@ -14,7 +14,7 @@ public class EstadisticasJugador : MonoBehaviour
     public float regEner;
     public SpawnController spawn;
 
-
+    public bool LlaveFinal;
     public Slider barraVida;
     public Slider barraEnergia;
 
@@ -53,7 +53,6 @@ public class EstadisticasJugador : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
         instance = this;
         spawn = gameObject.GetComponent<SpawnController>();
         originalSpeed = gameObject.GetComponent<CMF.SimpleWalkerController>().movementSpeed;
@@ -68,7 +67,6 @@ public class EstadisticasJugador : MonoBehaviour
         if (vida < 0)
             vida = 0;
         barraVida.value = vida / vidaMaxima;
-        print(vida);
     }
     // Update is called once per frame
     void Update()
@@ -89,9 +87,9 @@ public class EstadisticasJugador : MonoBehaviour
             Rodar();
         if (!busy)
         {
-            if (Input.GetKeyDown(KeyCode.N))
+            if (Input.GetMouseButtonDown(0))
                 StartCoroutine(activateAttack());
-            if (Input.GetKeyDown(KeyCode.M))
+            if (Input.GetMouseButtonDown(1))
                 StartCoroutine(activateFire());
         }
     }
