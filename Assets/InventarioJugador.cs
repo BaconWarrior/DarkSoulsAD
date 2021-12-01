@@ -13,9 +13,17 @@ public class InventarioJugador : MonoBehaviour
     public Image imgObj;
     public TextMeshProUGUI cantidadObj;
     float regEnNormal;
+
+    [Header("item regenracion vida")]
+    public float tiempoRgenerarVida = 10;
+    public float T = 0;
+    public float cantidadDeVidaPorFrame = 0.1f;
+    public bool regenrandoVida = false;
+
     // Start is called before the first frame update
     void Start()
     {
+        T = 0;
         regEnNormal = EstadisticasJugador.Instance.regEner;
         cantidadObj1 = 5;
     }
@@ -29,6 +37,19 @@ public class InventarioJugador : MonoBehaviour
             ObjSelec(-1);
         if (Input.GetKeyDown(KeyCode.Q))
             ConsumirObjeto();
+        if (Input.GetKeyDown(KeyCode.Alpha0)){
+            cantidadObj3 += 1;
+            objetoSeleccionado = 2;
+            ConsumirObjeto();
+        }
+
+        if (regenrandoVida && (T < tiempoRgenerarVida)) {
+            T += 1 * Time.deltaTime;
+            EstadisticasJugador.Instance.RecibirDano(-cantidadDeVidaPorFrame);
+            if (T >= tiempoRgenerarVida) {
+                regenrandoVida = false;
+            }
+        }
     }
     [Serializable]
     public struct Consumibles
@@ -65,7 +86,9 @@ public class InventarioJugador : MonoBehaviour
             {
                 cantidadObj3--;
                 cantidadObj.text = cantidadObj3.ToString();
-                //EstadisticasJugador.Instance.RecibirDano(-30);
+                print("consumir vida por tiempo");
+                T = 0;
+                regenrandoVida = true;
             }
         }
         
