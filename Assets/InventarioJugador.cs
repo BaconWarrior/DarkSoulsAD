@@ -109,6 +109,11 @@ public class InventarioJugador : MonoBehaviour
 
 
     }
+    public void RestablecerEstus()
+    {
+        cantidadObj1 = 5;
+        cantidadObj.text = cantidadObj1.ToString();
+    }
     void RegNormal()
     {
         EstadisticasJugador.Instance.regEner = regEnNormal;
@@ -148,6 +153,12 @@ public class InventarioJugador : MonoBehaviour
                     cantidadObj.text = cantidadObj3.ToString();
             }
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.transform.CompareTag("hoguera"))
+            RestablecerEstus();
     }
 
     public void ObtenerArma(int id)

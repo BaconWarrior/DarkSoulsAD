@@ -8,10 +8,12 @@ public class SpawnController : MonoBehaviour
     public GameObject bonfire;
     public Animator anim;
     public bool dead = false;
+    public InventarioJugador ij;
     // Start is called before the first frame update
     void Start()
     {
         //anim = GameObject.Find("You died screen").GetComponent<Animator>();
+        //ij.GetComponent<InventarioJugador>();
     }
 
     // Update is called once per frame
@@ -45,5 +47,6 @@ public class SpawnController : MonoBehaviour
     public void Reaparecer() {
         transform.position = bonfire.transform.position;
         dead = false;
+        ij.RestablecerEstus();
     }
 }

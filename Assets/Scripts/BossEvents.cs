@@ -115,7 +115,7 @@ public class BossEvents : MonoBehaviour
         }
         if (eleccion == 1)
         {
-            Carga();
+            Spit();
         }
         else
         {

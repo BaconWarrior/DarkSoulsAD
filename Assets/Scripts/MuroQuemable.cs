@@ -19,7 +19,8 @@ public class MuroQuemable : MonoBehaviour
             GameObject suelo = GameObject.FindGameObjectWithTag("sueloFragil");
             suelo.GetComponent<Rigidbody>().isKinematic = false;
             for (int i = 0; i < suelo.transform.childCount; i++) {
-                suelo.transform.GetChild(i).gameObject.GetComponent<Collider>().enabled = false;
+                print("Derrumbe");
+                //suelo.transform.GetChild(i).gameObject.GetComponent<Collider>().enabled = false;
             }
         }
     }

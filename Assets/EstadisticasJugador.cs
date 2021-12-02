@@ -38,6 +38,8 @@ public class EstadisticasJugador : MonoBehaviour
     private bool busy;
 
     static EstadisticasJugador instance;
+    public int almas;
+    public TextMeshProUGUI textAlmas;
     public static EstadisticasJugador Instance
     {
         get
@@ -58,7 +60,11 @@ public class EstadisticasJugador : MonoBehaviour
         originalSpeed = gameObject.GetComponent<CMF.SimpleWalkerController>().movementSpeed;
         activeWeaponCollider = swordCollider;
     }
-
+    public void GanarAlmas(int _almas)
+    {
+        almas += _almas;
+        textAlmas.text = almas.ToString();
+    }
     public void RecibirDano(float dano)
     {
         vida -= dano;
