@@ -8,6 +8,8 @@ public class Ches : MonoBehaviour
     public GameObject pivote;
     public int arma;
     
+    [SerializeField]
+    private string _arma;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -17,6 +19,7 @@ public class Ches : MonoBehaviour
             Activacion.enabled = false;
             other.GetComponent<InventarioJugador>().ObtenerArma(arma);
             LeanTween.rotateZ(pivote, 130, 3);
+            EstadisticasJugador.Instance.NuevaNotificacion("Obtuviste " + _arma);
         }
     }
 

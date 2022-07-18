@@ -13,6 +13,7 @@ public class ChesLlave : MonoBehaviour
             Activacion.enabled = false;
             EstadisticasJugador.Instance.LlaveFinal = true;
             LeanTween.rotateZ(pivote, 130, 3);
+            EstadisticasJugador.Instance.NuevaNotificacion("Obtuviste Llave de la tumba prohibida");
         }
     }
 }

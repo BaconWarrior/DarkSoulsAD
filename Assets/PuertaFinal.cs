@@ -10,12 +10,15 @@ public class PuertaFinal : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            if (EstadisticasJugador.Instance.LlaveFinal)
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                print("Emtrada bossFinal");
-                boss.SetActive(true);
-                collision.transform.position = posEntrada.position;
-                gameObject.SetActive(false);
+                if (EstadisticasJugador.Instance.LlaveFinal)
+                {
+                    boss.SetActive(true);
+                    EstadisticasJugador.Instance.barraVidaBossGO.SetActive(true);
+                    collision.transform.position = posEntrada.position;
+                    gameObject.SetActive(false);
+                }
             }
         }
     }

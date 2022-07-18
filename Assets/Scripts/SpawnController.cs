@@ -8,18 +8,8 @@ public class SpawnController : MonoBehaviour
     public GameObject bonfire;
     public Animator anim;
     public bool dead = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-        //anim = GameObject.Find("You died screen").GetComponent<Animator>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    public InventarioJugador ij;
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("hoguera")) {
@@ -45,5 +35,6 @@ public class SpawnController : MonoBehaviour
     public void Reaparecer() {
         transform.position = bonfire.transform.position;
         dead = false;
+        ij.RestablecerEstus();
     }
 }
