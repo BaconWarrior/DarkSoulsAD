@@ -9,19 +9,7 @@ public class SpawnController : MonoBehaviour
     public Animator anim;
     public bool dead = false;
     public InventarioJugador ij;
-    // Start is called before the first frame update
-    void Start()
-    {
-        //anim = GameObject.Find("You died screen").GetComponent<Animator>();
-        //ij.GetComponent<InventarioJugador>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("hoguera")) {

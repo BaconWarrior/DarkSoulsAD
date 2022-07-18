@@ -19,8 +19,10 @@ public class BossEvents : MonoBehaviour
     public Vector3 target;
     public LayerMask layerBoss;
     public float hp;
+    private float maxhp;
+
     public GameObject Charco;
-    public GameObject ZonaDaño;
+    public GameObject ZonaDano;
     public Behaviour navigator;
     bool dead;
     // Start is called before the first frame update
@@ -28,6 +30,7 @@ public class BossEvents : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
+        maxhp = hp;
     }
 
     // Update is called once per frame
@@ -48,7 +51,7 @@ public class BossEvents : MonoBehaviour
     }
     public void Carga()
     {
-        ZonaDaño.SetActive(true);
+        ZonaDano.SetActive(true);
         carga = true;
         anim.Play(an_Charge);
         //target = posJugador.position;
@@ -61,7 +64,7 @@ public class BossEvents : MonoBehaviour
         {
             if(carga)
             {
-                ZonaDaño.SetActive(false);
+                ZonaDano.SetActive(false);
                 anim.Play(an_Dizzy);
                 carga = false;
                 rb.velocity = Vector3.zero;
@@ -75,7 +78,7 @@ public class BossEvents : MonoBehaviour
         {
             if (carga)
             {
-                ZonaDaño.SetActive(false);
+                ZonaDano.SetActive(false);
                 print("Ouch, choque :c");
                 anim.Play(an_Dizzy);
                 carga = false;
@@ -87,8 +90,11 @@ public class BossEvents : MonoBehaviour
         if (other.CompareTag("Arma"))
         {
             hp -= EstadisticasJugador.Instance.dano;
+            EstadisticasJugador.Instance.barraVidaBoss.value = hp / maxhp;
             if (hp <= 0 && !dead)
             {
+                hp = 0;
+                EstadisticasJugador.Instance.barraVidaBoss.value = 0;
                 dead = true;
                 Tree.enabled = false;
                 carga = false;

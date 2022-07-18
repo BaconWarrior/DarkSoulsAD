@@ -23,7 +23,7 @@ public class Elevador : MonoBehaviour
         }
         else
         {
-            Debug.Log("El mecanismo no se mueve");
+            EstadisticasJugador.Instance.NuevaNotificacion("El mecanismo no se mueve");
         }
     }
 
@@ -33,7 +33,8 @@ public class Elevador : MonoBehaviour
             desbloqueado = true;
         if(collision.transform.CompareTag("Player"))
         {
-            Activarse();
+            if (Input.GetKeyDown(KeyCode.E))
+                Activarse();
         }
     }
 }

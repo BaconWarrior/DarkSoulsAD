@@ -17,6 +17,12 @@ public class EstadisticasJugador : MonoBehaviour
     public bool LlaveFinal;
     public Slider barraVida;
     public Slider barraEnergia;
+    public Slider barraVidaBoss;
+    public GameObject barraVidaBossGO;
+    [SerializeField]
+    private GameObject cuadroNotificacionGO;
+    [SerializeField]
+    private TMP_Text cuadroNotificacion;
 
     public Animator animator;
     [Header("Attacks")]
@@ -98,6 +104,13 @@ public class EstadisticasJugador : MonoBehaviour
             if (Input.GetMouseButtonDown(1))
                 StartCoroutine(activateFire());
         }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if(cuadroNotificacionGO.activeInHierarchy)
+            {
+                cuadroNotificacionGO.SetActive(false);
+            }
+        }
     }
 
     void actualizarBarraEnergia(float _energia)
@@ -108,7 +121,11 @@ public class EstadisticasJugador : MonoBehaviour
         barraEnergia.value = energia / energiaMaxima;
     }
 
-    
+    public void NuevaNotificacion(string _notificacion)
+    {
+        cuadroNotificacionGO.SetActive(true);
+        cuadroNotificacion.text = _notificacion;
+    }
 
     void Rodar()
     {

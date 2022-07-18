@@ -9,7 +9,8 @@ public class Palaca : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            elev.Activarse();
+            if (Input.GetKeyDown(KeyCode.E))
+                elev.Activarse();
         }
     }
 }
